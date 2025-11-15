@@ -1,43 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form validation</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+  </head>
+  <body>
     <div class="container">
-        <section class="image"></section>
-        <section class="form">
-            <form id="form-main">
-                <div class="title">Getting Started</div>
-                <div>
-                    <label for="username">Name</label>
-                    <i class="fa-solid fa-user"></i>
-                    <input type="text" id="username" name="username" placeholder="Enter your username">
-                    <i class="fa-regular fa-circle-check"></i>
-                    <i class="fa-solid fa-circle-exclamation"></i>
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <i class="fa-solid fa-envelope"></i>
-                    <input type="email" id="email" name="email" placeholder="Enter your email">
-                     <i class="fa-regular fa-circle-check"></i>
-                    <i class="fa-solid fa-circle-exclamation"></i>
-                </div>
-                <div>
-                    <label for="password">Passkey</label>
-                    <i class="fa-solid fa-lock"></i>
-                    <input type="password" id="password" name="password" placeholder="Enter your password">
-                     <i class="fa-regular fa-circle-check"></i>
-                    <i class="fa-solid fa-circle-exclamation"></i>
-                </div>
-                <button type="submit" id="submit">Submit</button>
-            </form>
-        </section>
+      <section class="image"></section>
+      <section class="form">
+        <form id="form-main">
+          <div class="title">Getting Started</div>
+          <div>
+            <label for="username">Name</label>
+            <i class="fa-solid fa-user"></i>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter your username"
+            />
+            <i class="fa-regular fa-circle-check success-icon"></i>
+            <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <i class="fa-solid fa-envelope"></i>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+            <i class="fa-regular fa-circle-check success-icon"></i>
+            <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+          </div>
+          <div>
+            <label for="password">Passkey</label>
+            <i class="fa-solid fa-lock"></i>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+            />
+            <i class="fa-regular fa-circle-check success-icon"></i>
+            <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+            <div class="error"></div>
+          </div>
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </section>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

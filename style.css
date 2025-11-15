@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  max-width: 400px;
+  padding: 50px;
+ /* border: 1px solid black; */
+ 
+}
+
+form div input {
+  width: 80%;
+  height: 40px;
+  border-radius: 8px;
+    border: none;
+  padding: 0 40px;
+  box-shadow: rgba(19, 19, 19, 0.922) 0px 2px 8px 0px;
+}
+
+form div{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 7px;
+}
+
+form div i{
+    position: absolute;
+    padding: 10px;
+}
+
+.success-icon, 
+.failure-icon {
+    right: 0;
+    opacity: 0;
+    top: 38px;
+}
+.failure-icon, .error{
+    color: red;
+}
+
+.success-icon{
+    color: green;
+}
+
+.error{
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+button{
+    width: 100%;
+    border-radius: 8px;
+    height: 40px;
+    background-color: rgb(8, 72, 146);
+    border: none;
+    margin-top:15px ;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(23, 15, 15, 0.922) 0px 2px 8px 0px;
+   
+}
+.success-icon,
+.failure-icon {
+  right: 10px;
+  top: 40px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
