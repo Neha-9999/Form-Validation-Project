@@ -46,7 +46,7 @@ form div i{
 .failure-icon {
     right: 0;
     opacity: 0;
-    top: 38px;
+    top: 28px;
 }
 .failure-icon, .error{
     color: red;
@@ -74,11 +74,11 @@ button{
     box-shadow: rgba(23, 15, 15, 0.922) 0px 2px 8px 0px;
    
 }
-.success-icon,
+/* .success-icon,
 .failure-icon {
   right: 10px;
   top: 40px;
-}
+} */
 
 button:hover{
     opacity: 0.8;
